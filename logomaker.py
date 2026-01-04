@@ -1,0 +1,6 @@
+fp=open("python-logo.png","rb")
+data=fp.read()
+cp=open("python-copy.png","wb")
+cp.write(data)
+cp.close()
+fp.close()
